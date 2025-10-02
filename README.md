@@ -1,0 +1,1 @@
+# Orion v1.8\n\nEnv:\nOPENAI_API_KEY=\nSHOTSTACK_API_KEY=\nSHOTSTACK_HOST=https://api.shotstack.io\nSHOTSTACK_ENV=v1\n\nTest:\n/api/health\n

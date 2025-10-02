@@ -1,0 +1,1 @@
+export default function handler(_req,res){res.status(200).json({ok:true,hasOpenAI:!!process.env.OPENAI_API_KEY,hasShotstack:!!process.env.SHOTSTACK_API_KEY,shotstackHost:process.env.SHOTSTACK_HOST||'https://api.shotstack.io',env:process.env.SHOTSTACK_ENV||'v1',version:'1.8.0'})}
